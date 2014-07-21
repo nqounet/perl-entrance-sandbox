@@ -7,6 +7,6 @@ use Data::Printer;
 print %INC;
 
 my @array = ('a' .. 'z');
-my $hash = {@array};
+my $hash  = {@array};
 
 p $hash;

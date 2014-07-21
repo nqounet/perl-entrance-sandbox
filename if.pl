@@ -5,8 +5,8 @@ use warnings FATAL => 'all';
 my $args = 'hoge';
 
 if ($args == 0) {
-    print "$args is 0 !\n";
+  print "$args is 0 !\n";
 }
 else {
-    print "$args is not 0 !\n";
+  print "$args is not 0 !\n";
 }
