@@ -10,3 +10,9 @@ my $value = delete $hash{key};
 
 p %hash;
 p $value;
+
+$hash{key} = $value;
+
+while (my ($key, $value) = each %hash) {
+    print "$key = $value\n";
+}
