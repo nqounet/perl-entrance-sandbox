@@ -7,5 +7,5 @@ if ($ENV{'REQUEST_METHOD'} eq 'GET' and $ENV{'PATH_INFO'} eq '/' or $ENV{'PATH_I
 }
 
 for my $key (sort keys %ENV) {
-    print "$key = $ENV{$key}\n";
+    printf "%20s = %s\n", $key, $ENV{$key};
 }
