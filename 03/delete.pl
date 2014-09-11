@@ -6,7 +6,7 @@ use DDP {deparse => 1};
 
 my %hash = (key => 'value', foo => 'bar');
 
-my $value = $hash{key};
+my $value = delete $hash{key};
 
 p %hash;
 p $value;
