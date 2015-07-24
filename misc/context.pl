@@ -12,5 +12,12 @@ sub array {
     return @array;
 }
 
+sub empty_array {
+    return ();
+}
+
 my @array = array() || ();
-print "@array";
+p @array;
+
+my @empty_array = empty_array() || (1, 2);
+p @empty_array;
