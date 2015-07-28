@@ -8,7 +8,7 @@ use Data::Printer {deparse => 1};
 
 
 sub array {
-    my @array = (1, 2, 3);
+    my @array = (2, 2, 2);
     return @array;
 }
 
